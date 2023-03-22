@@ -1,4 +1,4 @@
-package baekjoon_practice_basic;
+package bj_level1;
 
 public class q_10171 {
 	public static void main(String[] args) {

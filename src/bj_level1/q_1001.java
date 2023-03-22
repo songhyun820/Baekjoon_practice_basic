@@ -1,4 +1,4 @@
-package baekjoon_practice_basic;
+package bj_level1;
 
 import java.util.Scanner;
 

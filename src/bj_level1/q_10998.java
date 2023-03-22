@@ -1,13 +1,13 @@
-package baekjoon_practice_basic;
+package bj_level1;
 
 import java.util.Scanner;
 
-public class q_1008 {
+public class q_10998 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int a, b;
 		a = in.nextInt();
 		b = in.nextInt();
-		System.out.println((double)a / b);
+		System.out.println(a * b);	
 	}
 }
