@@ -9,7 +9,7 @@ public class q_2525 {
 		int min = sc.nextInt();
 		int time = sc.nextInt();
 		int temp = hour * 60 + min + time;
-		if(temp > 1440)
+		if(temp >= 1440)
 			temp -= 1440;
 		System.out.println(String.format("%d %d",temp/60,temp%60));
 	}
