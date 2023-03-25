@@ -16,6 +16,8 @@ public class q_10798 {
 		}
 		for(int i = 0; i < 15; i++) {
 			for(int j = 0; j < 5; j++) {
+				if (words[j][i] == '\0')
+					continue;
 				result += words[j][i];
 			}
 		}
